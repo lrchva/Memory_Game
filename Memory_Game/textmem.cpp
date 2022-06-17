@@ -48,7 +48,7 @@ void TextMem::get_number(){
     timer->stop();
     ui->label_Numbers->setVisible(false);
     bool ok;
-    user_text = QInputDialog::getText(this, tr(""), tr("Enter number:"), QLineEdit::Normal, "-", &ok);
+    user_text = QInputDialog::getText(this, tr(""), tr("Enter text:"), QLineEdit::Normal, "-", &ok);
 
     if (game_text == user_text){
         level++;

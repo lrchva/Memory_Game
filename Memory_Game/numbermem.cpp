@@ -20,7 +20,7 @@ NumberMem::~NumberMem()
 
 void NumberMem::on_button_Start_clicked()
 {
-    ui->label_Level->->setVisible(true);
+    ui->label_Level->setVisible(true);
     ui->button_Start->setVisible(false);
     ui->label_your_ans->setVisible(false);
     ui->label_correct_ans->setVisible(false);
@@ -56,7 +56,7 @@ void NumberMem::get_number(){
         next_level(level);
     }
     else {
-        ui->label_Level->->setVisible(false);
+        ui->label_Level->setVisible(false);
         if (level > 6){
             ui->label_Numbers->setText("You reached level " + QString::number(level - 1) + "! Great job!");
         }
