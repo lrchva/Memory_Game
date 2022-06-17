@@ -55,6 +55,7 @@ void TextMem::get_number(){
         next_level(level);
     }
     else {
+        ui->label_Level->setVisible(false);
         if (level > 6){
             ui->label_Numbers->setText("You reached level " + QString::number(level - 1) + "! Great job!");
         }
