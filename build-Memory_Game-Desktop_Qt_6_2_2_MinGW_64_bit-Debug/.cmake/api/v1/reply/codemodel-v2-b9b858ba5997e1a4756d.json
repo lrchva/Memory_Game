@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Memory_Game",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Memory_Game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Memory_Game-Debug-fe4f7fa58347497bb849.json",
+					"name" : "Memory_Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Memory_Game_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Memory_Game_autogen-Debug-1d0cef570669bf1a516a.json",
+					"name" : "Memory_Game_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Memory_Game_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Memory_Game_autogen_timestamp_deps-Debug-cad4051a571c1274c82a.json",
+					"name" : "Memory_Game_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/user/Desktop/Memory_Game/Memory_Game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
