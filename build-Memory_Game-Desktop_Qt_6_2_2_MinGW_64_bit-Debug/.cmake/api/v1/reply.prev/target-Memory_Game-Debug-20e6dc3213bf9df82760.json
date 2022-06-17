@@ -125,12 +125,6 @@
 			"includes" : 
 			[
 				{
-					"path" : "C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug"
-				},
-				{
-					"path" : "C:/Users/user/Desktop/Memory_Game/Memory_Game"
-				},
-				{
 					"backtrace" : 0,
 					"path" : "C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include"
 				},
@@ -182,11 +176,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "Memory_Game_autogen::@6890427a1f51a3e7e1df"
+			"id" : "Memory_Game_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Memory_Game_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "Memory_Game_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Memory_Game::@6890427a1f51a3e7e1df",

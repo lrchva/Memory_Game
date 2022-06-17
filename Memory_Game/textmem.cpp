@@ -8,9 +8,10 @@ TextMem::TextMem(QWidget *parent) :
     ui->setupUi(this);
     ui->label_Numbers->setVisible(false);
     ui->label_your_ans->setVisible(false);
+    ui->label_Level->setVisible(false);
     ui->label_correct_ans->setVisible(false);
     timer = new QTimer();
-    QObject::connect(timer, SIGNAL(timeout()), this, SLOT(get_number()));
+    QObject::connect(timer, SIGNAL(timeout()), this, SLOT(get_text()));
 }
 
 TextMem::~TextMem()
@@ -21,6 +22,7 @@ TextMem::~TextMem()
 void TextMem::on_button_Start_clicked()
 {
     ui->button_Start->setVisible(false);
+    ui->label_Level->setVisible(true);
     ui->label_your_ans->setVisible(false);
     ui->label_correct_ans->setVisible(false);
     level = 1;
@@ -44,7 +46,7 @@ void TextMem::next_level(int level){
 }
 
 
-void TextMem::get_number(){
+void TextMem::get_text(){
     timer->stop();
     ui->label_Numbers->setVisible(false);
     bool ok;

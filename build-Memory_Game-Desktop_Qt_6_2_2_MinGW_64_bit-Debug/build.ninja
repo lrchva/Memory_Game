@@ -53,7 +53,7 @@ build CMakeFiles/Memory_Game.dir/Memory_Game_autogen/mocs_compilation.cpp.obj: C
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Memory_Game.dir\Memory_Game_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug -IC:/Users/user/Desktop/Memory_Game/Memory_Game -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Memory_Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Memory_Game.dir\Memory_Game_autogen
 
@@ -61,7 +61,7 @@ build CMakeFiles/Memory_Game.dir/main.cpp.obj: CXX_COMPILER__Memory_Game_Debug C
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Memory_Game.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug -IC:/Users/user/Desktop/Memory_Game/Memory_Game -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Memory_Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Memory_Game.dir
 
@@ -69,7 +69,7 @@ build CMakeFiles/Memory_Game.dir/mainwindow.cpp.obj: CXX_COMPILER__Memory_Game_D
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Memory_Game.dir\mainwindow.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug -IC:/Users/user/Desktop/Memory_Game/Memory_Game -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Memory_Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Memory_Game.dir
 
@@ -77,7 +77,7 @@ build CMakeFiles/Memory_Game.dir/numbermem.cpp.obj: CXX_COMPILER__Memory_Game_De
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Memory_Game.dir\numbermem.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug -IC:/Users/user/Desktop/Memory_Game/Memory_Game -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Memory_Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Memory_Game.dir
 
@@ -85,7 +85,7 @@ build CMakeFiles/Memory_Game.dir/textmem.cpp.obj: CXX_COMPILER__Memory_Game_Debu
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Memory_Game.dir\textmem.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug -IC:/Users/user/Desktop/Memory_Game/Memory_Game -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Debug/Memory_Game_autogen/include -isystem D:/Qt/6.2.2/mingw_64/include/QtCore -isystem D:/Qt/6.2.2/mingw_64/include -isystem D:/Qt/6.2.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.2.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.2.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Memory_Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Memory_Game.dir
 

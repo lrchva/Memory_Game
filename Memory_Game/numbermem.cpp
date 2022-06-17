@@ -7,6 +7,7 @@ NumberMem::NumberMem(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->label_Numbers->setVisible(false);
+    ui->label_Level->setVisible(false);
     ui->label_your_ans->setVisible(false);
     ui->label_correct_ans->setVisible(false);
     timer = new QTimer();

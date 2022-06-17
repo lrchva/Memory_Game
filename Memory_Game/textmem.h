@@ -27,7 +27,7 @@ public:
 
 private slots:
     void on_button_Start_clicked();
-    void get_number();
+    void get_text();
     void next_level(int level);
 
 private:
