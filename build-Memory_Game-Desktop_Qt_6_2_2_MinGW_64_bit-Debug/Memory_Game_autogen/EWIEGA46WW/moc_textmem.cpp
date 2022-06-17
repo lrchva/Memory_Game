@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_TextMem_t {
     const uint offsetsAndSize[12];
-    char stringdata0[61];
+    char stringdata0[59];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_TextMem_t, stringdata0) + ofs), len 
@@ -32,13 +32,13 @@ static const qt_meta_stringdata_TextMem_t qt_meta_stringdata_TextMem = {
 QT_MOC_LITERAL(0, 7), // "TextMem"
 QT_MOC_LITERAL(8, 23), // "on_button_Start_clicked"
 QT_MOC_LITERAL(32, 0), // ""
-QT_MOC_LITERAL(33, 10), // "get_number"
-QT_MOC_LITERAL(44, 10), // "next_level"
-QT_MOC_LITERAL(55, 5) // "level"
+QT_MOC_LITERAL(33, 8), // "get_text"
+QT_MOC_LITERAL(42, 10), // "next_level"
+QT_MOC_LITERAL(53, 5) // "level"
 
     },
     "TextMem\0on_button_Start_clicked\0\0"
-    "get_number\0next_level\0level"
+    "get_text\0next_level\0level"
 };
 #undef QT_MOC_LITERAL
 
@@ -75,7 +75,7 @@ void TextMem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         (void)_t;
         switch (_id) {
         case 0: _t->on_button_Start_clicked(); break;
-        case 1: _t->get_number(); break;
+        case 1: _t->get_text(); break;
         case 2: _t->next_level((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }

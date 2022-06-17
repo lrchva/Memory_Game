@@ -1,0 +1,39 @@
+\hypertarget{mainwindow_8h_source}{}\doxysection{mainwindow.\+h}
+\label{mainwindow_8h_source}\index{C:/Users/user/Desktop/Memory\_Game/Memory\_Game/mainwindow.h@{C:/Users/user/Desktop/Memory\_Game/Memory\_Game/mainwindow.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef MAINWINDOW\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define MAINWINDOW\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QMainWindow>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}numbermem.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}textmem.h"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{13 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_ui}{Ui}} \{ \textcolor{keyword}{class }\mbox{\hyperlink{class_main_window}{MainWindow}}; \}}
+\DoxyCodeLine{14 QT\_END\_NAMESPACE}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{class_main_window}{MainWindow}} : \textcolor{keyword}{public} QMainWindow}
+\DoxyCodeLine{17 \{}
+\DoxyCodeLine{18     Q\_OBJECT}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \mbox{\hyperlink{class_main_window_a996c5a2b6f77944776856f08ec30858d}{MainWindow}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{24     \mbox{\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{\string~MainWindow}}();}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} on\_button\_numbermem\_clicked();}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{31     \textcolor{keywordtype}{void} on\_button\_textmem\_clicked();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{keyword}{private}:}
+\DoxyCodeLine{34     Ui::MainWindow *ui;}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{37     \mbox{\hyperlink{class_number_mem}{NumberMem}}* numberMem;}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{40     \mbox{\hyperlink{class_text_mem}{TextMem}}* textMem;}
+\DoxyCodeLine{41 \};}
+\DoxyCodeLine{42 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// MAINWINDOW\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Memory_Game",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Memory_Game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Memory_Game-Release-1a62f6ea061062b0e285.json",
+					"name" : "Memory_Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Memory_Game_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Memory_Game_autogen-Release-9804a3b968d3f8181016.json",
+					"name" : "Memory_Game_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Memory_Game_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Memory_Game_autogen_timestamp_deps-Release-e83a82e261a81f2b4f7c.json",
+					"name" : "Memory_Game_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Release",
+		"source" : "C:/Users/user/Desktop/Memory_Game/Memory_Game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

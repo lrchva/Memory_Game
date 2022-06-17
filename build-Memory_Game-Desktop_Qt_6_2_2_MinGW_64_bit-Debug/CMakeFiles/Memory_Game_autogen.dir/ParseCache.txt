@@ -686,7 +686,6 @@ C:/Users/user/Desktop/Memory_Game/Memory_Game/numbermem.h
  mdp:D:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/wctype.h
-C:/Users/user/Desktop/Memory_Game/Memory_Game/main.cpp
 C:/Users/user/Desktop/Memory_Game/Memory_Game/textmem.h
  mmc:Q_OBJECT
  mdp:C:/Users/user/Desktop/Memory_Game/Memory_Game/textmem.h
@@ -1026,5 +1025,6 @@ C:/Users/user/Desktop/Memory_Game/Memory_Game/textmem.h
  mdp:D:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include/wctype.h
+C:/Users/user/Desktop/Memory_Game/Memory_Game/main.cpp
 C:/Users/user/Desktop/Memory_Game/Memory_Game/textmem.cpp
  uic:ui_textmem.h

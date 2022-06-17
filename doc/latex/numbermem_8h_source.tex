@@ -1,0 +1,51 @@
+\hypertarget{numbermem_8h_source}{}\doxysection{numbermem.\+h}
+\label{numbermem_8h_source}\index{C:/Users/user/Desktop/Memory\_Game/Memory\_Game/numbermem.h@{C:/Users/user/Desktop/Memory\_Game/Memory\_Game/numbermem.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef NUMBERMEM\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define NUMBERMEM\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QWidget>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QTimer>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <ctime>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QString>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <QInputDialog>}}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_ui}{Ui}} \{}
+\DoxyCodeLine{12 \textcolor{keyword}{class }\mbox{\hyperlink{class_number_mem}{NumberMem}};}
+\DoxyCodeLine{13 \}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{18 \textcolor{keyword}{class }\mbox{\hyperlink{class_number_mem}{NumberMem}} : \textcolor{keyword}{public} QWidget}
+\DoxyCodeLine{19 \{}
+\DoxyCodeLine{20     Q\_OBJECT}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{keyword}{public}:}
+\DoxyCodeLine{23     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_number_mem}{NumberMem}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{26     \mbox{\hyperlink{class_number_mem_ad14d09777ed73acc95a85b65540bbbc1}{\string~NumberMem}}();}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{29     QTimer* \mbox{\hyperlink{class_number_mem_a2cd45c774391305178619e049fe0a8a9}{timer}};}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{32     QString \mbox{\hyperlink{class_number_mem_a83f62c276b3ff8ec4e8a17ee798b9681}{user\_num}} = \textcolor{stringliteral}{"{}-\/"{}};}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{35     QString \mbox{\hyperlink{class_number_mem_aaf55652af2670a5a18c55add72d00561}{number\_str}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{38     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_number_mem_a07d794fbd94454a16197dcf203e6c0a5}{number}} = 0;}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{41     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_number_mem_a94eed3f06453b9fd59cee4f3864e2198}{level}} = 1;}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{45     \textcolor{keywordtype}{void} on\_button\_Start\_clicked();}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} next\_level(\textcolor{keywordtype}{int} \mbox{\hyperlink{class_number_mem_a94eed3f06453b9fd59cee4f3864e2198}{level}});}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} get\_number();}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55 \textcolor{keyword}{private}:}
+\DoxyCodeLine{56     Ui::NumberMem *ui;}
+\DoxyCodeLine{57 \};}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// NUMBERMEM\_H}}
+
+\end{DoxyCode}

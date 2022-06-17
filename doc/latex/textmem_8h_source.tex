@@ -1,0 +1,52 @@
+\hypertarget{textmem_8h_source}{}\doxysection{textmem.\+h}
+\label{textmem_8h_source}\index{C:/Users/user/Desktop/Memory\_Game/Memory\_Game/textmem.h@{C:/Users/user/Desktop/Memory\_Game/Memory\_Game/textmem.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef TEXTMEM\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define TEXTMEM\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QWidget>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QTimer>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <ctime>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QString>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <QInputDialog>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <QChar>}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_ui}{Ui}} \{}
+\DoxyCodeLine{12 \textcolor{keyword}{class }\mbox{\hyperlink{class_text_mem}{TextMem}};}
+\DoxyCodeLine{13 \}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{18 \textcolor{keyword}{class }\mbox{\hyperlink{class_text_mem}{TextMem}} : \textcolor{keyword}{public} QWidget}
+\DoxyCodeLine{19 \{}
+\DoxyCodeLine{20     Q\_OBJECT}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{keyword}{public}:}
+\DoxyCodeLine{23     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_text_mem}{TextMem}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{26     \mbox{\hyperlink{class_text_mem_aac2d68588011cfe8ab13ac6427d07d4b}{\string~TextMem}}();}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{29     QTimer* \mbox{\hyperlink{class_text_mem_ac972ad3693c638ba7a08ef28f3a3150d}{timer}};}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{32     QString \mbox{\hyperlink{class_text_mem_a91b3a042a397c5cfef3fb3b2cdfe414e}{user\_text}} = \textcolor{stringliteral}{"{}-\/"{}};}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{35     QString \mbox{\hyperlink{class_text_mem_abb1446d24f4caabe2ed5868686dba4f0}{game\_text}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{38     QChar \mbox{\hyperlink{class_text_mem_a2d3db7d00d7733f88a9b34957eaa2f35}{letter}} = \textcolor{charliteral}{' '};}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{41     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_text_mem_a517716d9e0023fb6fa2496f24af20eb6}{level}} = 1;}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{45     \textcolor{keywordtype}{void} on\_button\_Start\_clicked();}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} next\_level(\textcolor{keywordtype}{int} \mbox{\hyperlink{class_text_mem_a517716d9e0023fb6fa2496f24af20eb6}{level}});}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} get\_text();}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56 \textcolor{keyword}{private}:}
+\DoxyCodeLine{57     Ui::TextMem *ui;}
+\DoxyCodeLine{58 \};}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// TEXTMEM\_H}}
+
+\end{DoxyCode}
