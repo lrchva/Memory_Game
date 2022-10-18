@@ -48,6 +48,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Franklin Gothic Medium</family>
      <pointsize>20</pointsize>
     </font>
    </property>
@@ -81,6 +82,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Franklin Gothic Demi Cond</family>
      <pointsize>18</pointsize>
     </font>
    </property>
@@ -111,7 +113,8 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <family>Franklin Gothic Demi Cond</family>
+     <pointsize>14</pointsize>
     </font>
    </property>
    <property name="text">
@@ -141,7 +144,9 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>20</pointsize>
+     <family>Franklin Gothic Demi Cond</family>
+     <pointsize>18</pointsize>
+     <bold>false</bold>
     </font>
    </property>
    <property name="text">
@@ -174,6 +179,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Franklin Gothic Book</family>
      <pointsize>14</pointsize>
     </font>
    </property>
@@ -207,6 +213,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Franklin Gothic Book</family>
      <pointsize>14</pointsize>
     </font>
    </property>

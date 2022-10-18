@@ -1,5 +1,0 @@
-C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Release/CMakeFiles/Memory_Game.dir
-C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
-C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
-C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Release/CMakeFiles/Memory_Game_autogen_timestamp_deps.dir
-C:/Users/user/Desktop/Memory_Game/build-Memory_Game-Desktop_Qt_6_2_2_MinGW_64_bit-Release/CMakeFiles/Memory_Game_autogen.dir

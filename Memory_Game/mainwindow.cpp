@@ -17,6 +17,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_button_numbermem_clicked()
 {
     numberMem = new NumberMem();
+    numberMem->setWindowTitle("Number Memory Test");
     numberMem->show();
 }
 
@@ -24,6 +25,7 @@ void MainWindow::on_button_numbermem_clicked()
 void MainWindow::on_button_textmem_clicked()
 {
     textMem = new TextMem();
+    textMem->setWindowTitle("Text Memory Test");
     textMem->show();
 }
 

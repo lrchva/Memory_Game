@@ -11,6 +11,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
@@ -32,23 +33,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET Memory_Game APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_QT_DIR
-#                 ${CMAKE_CURRENT_SOURCE_QT_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
+
 else()
-    if(ANDROID)
-        add_library(Memory_Game SHARED
-            ${PROJECT_SOURCES}
-        )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_QT_DIR "${CMAKE_CURRENT_SOURCE_QT_DIR}/android")
-    else()
-        add_executable(Memory_Game
-            ${PROJECT_SOURCES}
-        )
-    endif()
+    add_executable(Memory_Game
+        ${PROJECT_SOURCES}
+    )
 endif()
+
 
 target_link_libraries(Memory_Game PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
@@ -61,3 +52,13 @@ set_target_properties(Memory_Game PROPERTIES
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(Memory_Game)
 endif()
+
+
+install(TARGETS Memory_Game DESTINATION bin)
+
+install(FILES $<TARGET_FILE:Qt5::Core> DESTINATION bin)
+install(FILES $<TARGET_FILE:Qt5::Gui> DESTINATION bin)
+install(FILES $<TARGET_FILE:Qt5::Widgets> DESTINATION bin)
+
+install(FILES $<TARGET_FILE:Qt5::QWindowsIntegrationPlugin> DESTINATION bin/platforms)
+install(FILES $<TARGET_FILE:Qt5::QWindowsDirect2DIntegrationPlugin> DESTINATION bin/platforms)
